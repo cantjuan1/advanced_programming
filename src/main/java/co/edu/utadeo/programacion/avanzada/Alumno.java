@@ -13,14 +13,30 @@ public class Alumno {
 
 	public Alumno(String nombre1, String identificacion1, String direccion1) {
 		this.nombre = nombre1;
-		this.identificacion = identificacion1;
-		this.direccion = direccion1;
+		this.setIdentificacion(identificacion1);
+		this.setDireccion(direccion1);
 	}
 
 	public Alumno() {
 		nombre = "Camilo";
-		identificacion = "123";
+		setIdentificacion("123");
 		valorMatricula = 0;
+	}
+
+	public String getIdentificacion() {
+		return identificacion;
+	}
+
+	public void setIdentificacion(String identificacion) {
+		this.identificacion = identificacion;
+	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
 	}
 
 }

@@ -1,7 +1,12 @@
-package co.edu.utadeo.programacion.avanzada;
+package co.edu.utadeo.programacion.avanzada.taller;
 
 import java.util.Date;
 
+/**
+ * UVA Uggly Numbers
+ * @author Juan Cantor
+ *
+ */
 public class UglyNumbers {
 
     public static boolean isUglyNumber(int number) {

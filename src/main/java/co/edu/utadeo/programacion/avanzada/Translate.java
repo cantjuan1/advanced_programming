@@ -1,8 +1,6 @@
 package co.edu.utadeo.programacion.avanzada;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 public class Translate {
 
