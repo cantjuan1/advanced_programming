@@ -15,7 +15,7 @@ public class RevengeOfThePancakes {
         Integer cases = in.nextInt();
         for (int i = 1; i <= cases; ++i) {
             String n = in.next();
-            String pancakes[] = n.split("");
+            //String pancakes[] = n.split("");
             out.write(("Case #" + i + ": " + n + "\n").getBytes());
         }
         in.close();
